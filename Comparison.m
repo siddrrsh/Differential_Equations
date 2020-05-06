@@ -1,0 +1,1 @@
+% Comparison of the programs after 3 test runs% RiemannSum Time: 0.0451294 secticRiemannSum(@(x) x.^2 , 1000, 0, 2);toc% SimpsonsRule Time: 0.0317121 seconds.ticSimpsonsRule(@(x) x.^2 , 1000, 0, 2);toc% TrapezoidalRule Time: 0.035686 seconds.ticTrapezoidalRule(@(x) x.^2 , 1000, 0, 2);toc

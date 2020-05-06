@@ -1,0 +1,1 @@
+function output = mye(x)  output = 0;  for n=0:10000    newterm = (x^(n))/factorial(n);    output = output + newterm;  endend

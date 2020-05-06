@@ -1,0 +1,1 @@
+function output = newcosine(x)  output = 0;  for n=0:10000    newterm = (((-1)^(n+1))*((x-(pi/2))^((2*n)+1)))/factorial(2*(n)+1);    output = output + newterm;  endend%in terms of the performance, this approximation gives the exact same result as the previous taylor approximation that used a Maclaurin series centered at 0
